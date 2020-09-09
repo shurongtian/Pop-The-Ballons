@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartPage"
+    android:background="#83009688">
+
+    <Button
+        android:id="@+id/startButton"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="#FFEB3B"
+        android:text="START"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="POP THE BALLOON" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="220dp"
+        android:text="Pop as many balloons as you can with the specified color and shape. If the right balloon gets popped, you get 1 point. If the wrong balloon gets popped, you get -1 point. Pop 10 current balloons you get 10 extra seconds. You have 60 seconds to start with. Have fun! "
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+</RelativeLayout>

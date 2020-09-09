@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#83009688"
+    android:layout_height="match_parent"
+    tools:context=".EnterScore">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/newScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:baselineAligned="false"
+            android:ems="10"
+            android:hint="Score"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/newDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Date/Time"
+            android:inputType="datetime"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="add"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:text="GAME OVER"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewMissed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="You missed " />
+
+</RelativeLayout>
